@@ -1,0 +1,1229 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    align-items: center;
+    gap: 1px;
+    position: fixed;
+    top: 0;
+    height: 62px;
+    z-index: 100;
+    padding: 8px 0px 4px 30px;
+}
+
+nav {
+    display: flex;
+    padding-left: 12vw;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+}
+
+.login_button a,.contact_us a{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+
+.login_button {
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 6px;
+    background-color: inherit;
+}
+
+.buttons_right {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    right: 30px;
+}
+.navbar a:hover{
+    color: #1B7C30;
+    font-size: 15px;
+}
+
+.navbar li {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.activelink{
+    color: #1B7C30;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #1B7C30;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.hera_logo{
+    left: 10px;
+
+}
+
+.nav_butt{
+    position: absolute;
+    right: 3%;
+    display: flex;
+    gap: 10px;
+}
+.nav_butt button {
+    border: 1.5px solid white;
+    background-color: inherit;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.nav_butt button a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2fec2c;
+    padding: 12px;
+}
+
+.hera_logo img {
+    height: 32px;
+}
+
+.hera_logo p {
+    font-size: 11.4px;
+    font-weight: 550;
+}
+
+button{
+    border: none;
+}
+
+input{
+    visibility: hidden;
+}
+
+.about{
+    font-size: 5.6em;
+    margin-left: 5%;
+    margin-top: 10.5%;
+    margin-bottom: 7%;
+}
+
+.about span{
+    color: #2fec2c;
+    font-weight: 700;
+}
+
+
+.nav_phone{
+    display: none;
+}
+.menu-icon {
+    margin-right: 20px;
+    scale: 0.8;
+}
+.nav_phone {
+    text-align: center;
+    height: 90vh;
+}
+
+.menu_bar{
+    position: relative;
+    height: 50px;
+    background-color: #5c595970;
+}
+
+header input{
+    display: none;
+}
+
+.back_icon{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+.back_icon img{
+    height: 40px;
+}
+
+.phone_navbar li {
+    text-align: start;
+    list-style-type: none;
+    padding: 12px 34px;
+    background-color: #7c7c7c70;
+    border-bottom: 1px solid #7f7f7f;
+}
+
+.phone_navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.phone_navbar_container{
+    margin-bottom: 20px;
+}
+
+.phone_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.loginphone{
+    background-color: white;
+    border: 1px solid #499A5A;
+    width: 44%;
+}
+
+.loginphone a{
+    color: #499A5A;
+
+}
+
+.registerphone{
+    background-color: #104D1D;
+    color: white;
+    border: none;
+    width: 40%;
+}
+
+.registerphone a{
+    color: white;
+}
+
+.phone_button {
+    padding: 11px 20px;
+}
+
+.phone_button a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;   
+}
+
+.nav_phone input{
+    display: none;
+}
+
+.services{
+    display: flex;
+}
+
+
+.services-left{
+    font-size: 1.2rem;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    margin-left: 8%;
+    margin-right: 2%;
+    margin-top: 7%;
+}
+
+.services-left li::before{
+    content: "\2714";
+    font-size: 30px;
+    padding-right: 15px;
+    color: #2fec2c;
+    position: absolute;
+    left: 0;
+    
+}
+
+.services-left li{
+    list-style-type: none;
+    padding-left: 40px;
+    position: relative;
+}
+
+.services-left p{
+    margin-top: 2%;
+    font-weight: 300;
+    font-size: 15px;
+}
+.freepix {
+    color: #f1c50e;
+}
+
+.button{
+    background-color: #f1c50e;
+    color: black;
+    border: unset;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 20px 65px;
+    margin-top: 2%;
+}
+
+.services-left button:hover{
+    background-color: #2fec2c;
+}
+    
+
+.freepix:hover{
+    color: #bd990a;
+}
+
+.services-right img{
+    height: fit-content;
+    width: 520px;
+    font-size: 1.1rem;
+
+}
+
+.article{
+    margin-right: 45%;
+    margin-left: 5%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    color: white;
+    background-color: black;
+    padding: 60px 25px;
+    padding-top: 70px;
+    line-height: 30px;
+    font-size: 1.15rem;
+}
+
+.offers{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+
+.offer{
+    color: #111111;
+    background-color: white;
+    width: 42%;
+    display: flex;
+    margin-bottom: 5%;
+    font-size: 1rem;
+    padding: 24px 24px;
+    line-height: 25px;
+    margin-left: 1.9%;
+    margin: 30px;
+}
+
+.offer h3{
+    font-weight: 400;
+}
+.four{
+    background-color: #f1c50e;
+}
+
+.icon_image img{
+    width: 50px;
+    height: 50px;
+}
+
+.icon_image{
+    display: inline-block;
+    margin-right: 5%;
+
+}
+
+.under{
+    display: inline-block;
+}
+
+.about_us{
+    display: flex;
+}
+
+.about_us_left{
+    width: 58%;
+    padding: 50px 30px;
+    margin-left: 5%;
+    background-color: rgb(211, 209, 209);
+
+}
+
+.reach_us li{
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.reach_us li::before{
+    content: "\25BA";
+    color: greenyellow;
+    line-height: 35px;
+    padding-right: 7px;
+}
+
+.about_us_left p{
+    font-size: 0.95rem;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.about_us_left h3{
+    font-size: 2.4rem;
+}
+
+.butt{
+    margin-bottom: 4%;
+    background-color: #f1c50e;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-image: none;
+    padding: 15px 61px 17px 60px;
+}
+
+.butt:hover{
+    background-color: #2fec2c;
+
+}
+
+.about_us_right img{
+    margin-top: 15%;
+    height: auto;
+    width: 60%;
+    margin-left: 3%;
+}
+
+.about_us_right{
+     background-image: url(/assets/images/pear2xicon.png);
+    background-repeat: no-repeat;
+    background-size: 57%;
+    position: relative;
+    background-position: center top;
+    margin-top: 3%;
+    
+}
+.sponsor img{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.reputation{
+    display: flex;
+    margin-top: 3%;
+}
+
+.reputation_left, .reputation_right{
+    width: 45%;
+    
+}
+
+.reputation_left{
+    margin-left: 7%;
+}
+
+.reputation_left h5{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+.agency{
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin: 20px 0 0;
+    line-height: 1.1;
+}
+
+ .agency1{
+    font-size: 1.5rem;
+    margin: 26px 0 0;
+    font-weight: 300;
+    line-height: 1.2;
+}
+    
+
+.reputation_right p{
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.pricing_plan{
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+}
+
+.all_plans{
+    display: flex;
+    gap: 40px;
+    background-color: black;
+    padding-left: 5%;
+}
+    
+
+.pricing_plan_header {
+    text-align: center;
+    justify-items: center;
+    padding-top: 4%;
+}
+
+.pricing_plan_header p{
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    word-wrap:break-word ;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.pricing_plan_header h5{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-bottom: 2%;
+}
+    
+.plans{
+    text-align: center;
+    justify-items: center;
+    width: 29.5%;
+    margin-top: 4%;
+    background-color: white;
+    color: black;
+    padding-top: 35px;
+    margin-bottom: 60px;
+    
+}
+
+.price_icon img{
+    height: 130px;
+    width: 150px;
+}
+
+.price_icon2 img{
+    height: 130px;
+    width: 135px;
+}
+
+.plans h1{
+    color: #2fec2c;
+    font-size: 4rem;
+    margin: 4% 0%;
+    
+}
+
+.plan_underline{
+    height: 1px;
+    background-color: black;
+    width: 93%;
+    margin-left: 13px !important;
+    margin: 10% 0%;
+}
+
+.plans ul{
+    line-height: 2;
+    letter-spacing: 1px;
+    margin: 2% 0%;
+}
+
+.plans li{
+    list-style-type: none;
+}
+
+.plan_button{
+    background-color: #f1c50e;
+    color: black;
+    border: unset;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 12px 40px;
+    margin-bottom: 9%;
+    margin-top:5%;
+}
+
+.plan_button:hover{
+    background-color: #2fec2c;
+}
+
+.about_brand{
+    display: flex;
+    margin: 6%;
+}
+
+.about_brand_left{
+    width: 30%;
+    display: block;
+    margin-top: 8%;
+}
+
+.about_brand_left p{
+    line-height: 1.1;
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin: 22px 0 0;
+}
+
+.about_brand_left h5{
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.about_brand_right{
+    width: 32%;
+    background-color: #111111;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+    justify-content: center;
+    padding: 50px 12px;
+    margin-left: 4%;
+}
+
+.box1{  
+    align-self: flex-end;
+    margin-top: 22%;
+}
+
+.box2{
+    background-color: #2fec2c;  
+    align-self: flex-start;
+    margin-bottom: 16%;
+    
+}
+
+.box2 h5{
+    font-weight: 700 !important;
+}
+
+.about_brand_right h5{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    padding: 15px 0px;
+}
+
+.contact_us{
+    color: black;
+    padding: 10px;
+    margin-left: 5%;
+    display: flex;
+}
+
+.contact_us_left{
+    width: 55%;
+    margin-top: 16%;
+}
+
+.contact_us h1{
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin: 20px auto 0 0;
+    line-height: 1.1;
+}
+
+.contact_us h4{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+.contact_us p{
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 200;
+    padding: 5% 0%;
+}
+
+.contact_us span{
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-top: 2%;
+}
+
+.tel:hover{
+    color: #f1c50e;
+}
+
+.tel::before{
+    content: "\260E";
+    color: #f1c50e;
+}
+
+.tel{
+    text-decoration: none;
+    color: #111111;
+}
+
+.contact_us_right{
+    width: 40%;  
+    margin-top: 3%;
+    margin-left: 2%;
+    position: relative;
+    background-color: white;
+}
+
+.contact_us_right img{
+    background-image: url(/assets/images/ameobicon.png);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    background-size: 90%;
+}
+
+.womanhead_image img{
+    padding-left: 10%;
+    padding-top: 10%;
+    height: 550px;
+    
+}
+
+label{
+    display: none;
+}
+.footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: black;
+}
+
+@media screen and (max-width: 620px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Montserrat, sans-serif;
+    }
+    .about {
+        margin-left: 5%;
+        font-size: 36px;
+        margin-top: 23%;
+        margin-bottom: 8%;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .services-left {
+        font-size: 0.86rem;
+        line-height: 1.7;
+        font-weight: 650;
+        letter-spacing: 0.4px;
+        margin-right: 10px;
+        margin-left: 13px;
+    }
+
+    .services-left li::before {
+        font-size: 20px;
+        left: 0;
+        margin-block: -5px;
+    }
+
+    
+    .services-left li {
+        padding-left: 24px;
+        margin-bottom: 10px;
+    }
+
+    .services-left p {
+        margin-top: 1%;
+        font-weight: 300;
+        font-size: 13px;
+    }
+
+    .services-left button {
+        font-size: 13px;
+        padding: 13px 32px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .services-right img {
+        width: 395px;
+        height: fit-content;
+        margin: 12px;
+    }
+
+    label {
+        display: block;
+    }
+
+    
+    .article {
+        background-color: black;
+        padding: 20px 13px;
+        line-height: 22px;
+        font-size: 0.977rem;
+        width: 95%;
+        margin-left: 9.5px;
+    }
+
+    .offers {
+        display: block;
+        margin-left: 0px;
+        margin-right: 2px;
+    }
+
+    .offer {
+        color: #111111;
+        background-color: #d3d3d31a;
+        display: flex;
+        font-size: 0.8rem;
+        margin: 20px 10px;
+        padding: 15px 7px;
+        width: 95%;
+    }
+
+    .icon_image {
+        margin-right: 2.5%;
+    }
+
+    .icon_image img {
+        width: 37px;
+        height: 37px;
+    }
+
+    .offer h3 {
+        font-weight: 500;
+        margin-bottom: -18px;
+    }
+
+    .about_us {
+        display: block;
+    }
+
+    .about_us_left {
+        width: 95%;
+        padding: 10px 15px;
+        margin-left: 0.6rem;
+    }
+
+    .about_us_left h3 {
+    font-size: 1.3rem;
+    }
+
+    .about_us_left p {
+        font-size: 0.929rem;
+        line-height: 20px;
+        font-weight: 400;
+        margin-bottom: -15px;
+    }
+
+    .reach_us li {
+        list-style-type: none;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .butt {
+        padding: 10px 30px 10px 35px;
+        margin-bottom: 10px;
+    }
+
+    .reputation {
+        display: block;
+        margin-top: 4%;
+        width: 95%;
+    }
+    
+    .reputation_left {
+        margin-left: 4%;
+    }
+    
+    .reputation_left, .reputation_right {
+        width: 98%;
+    }
+
+    .agency1 {
+        font-size: 1.2rem;
+        margin: 10px 0px 25px 0px;
+        font-weight: 100;
+        line-height: 1.2;
+    }
+
+    .agency {
+        font-weight: 600;
+        font-size: 1.6rem;
+        margin: 5px 0px 1px 0px;
+        line-height: 1.1;
+    }
+
+    .reputation_right {
+        width: 95%;
+    }
+
+    .reputation_right p {
+        font-size: 1.07rem;
+        line-height: 1.2;
+        font-weight: 400;
+        margin: 20px 10px 40px 10px;
+    }
+
+    .reputation_right div img {
+        width: 90%;
+        margin: -10px 0px 20px 20px;
+    }
+
+    .reputation_right h3{
+        margin: -10px 0px 20px 20px;
+    }
+
+    .pricing_plan_header p {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.1;
+        word-wrap: break-word;
+        width: 80%;
+        margin-left: 5%;
+    }
+
+    .all_plans {
+        display: block;
+        padding-left: 5%;
+        width: 425px;
+    }
+    
+    .plans {
+        width: 99%;
+        margin-top: 11%;
+        margin-left: -5px;
+        margin-bottom: 11%;
+    }
+
+    .about_brand_left h5 {
+        font-size: 1rem;
+        font-weight: 500;
+        padding-top: 30px;
+    }
+
+    .about_brand {
+        display: flex;
+        flex-direction: column;
+        margin: 6% ;
+    }
+
+    .about_brand_left {
+        width: 98%;
+        font-size: -14px;
+        display: block;
+        margin-top: -4%;
+    }
+
+    .box1 {
+        width: 100%;
+        margin: unset;
+        /* align-self: flex-end; */
+        margin-top: 11%;
+    }
+
+    .box2 {
+        background-color: #2fec2c;
+        /* align-self: flex-start; */
+        width: 100%;
+        /* margin-bottom: 16%; */
+        margin-top: 3%;
+    }
+
+    .about_brand_right {
+        margin: unset;
+    }
+   
+    .about_brand {
+        display: flex;
+        flex-direction: column;
+        margin: 4%;
+        gap: 26px;
+    }
+
+    .footer {
+        color: white;
+        background-color: black;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 11px;
+        padding-top: 16px;
+    }
+
+    .nav_butt{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* REESPONSIVENESS */
+@media screen and (min-width:531px) and (max-width:771px ){ 
+    .hera_logo {
+        line-height: 5px;
+        position: absolute;
+        left: 35px;
+    }
+
+    .login_button, .contact_us{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:100px) and (max-width: 530px)  { 
+    
+    .login_button , .contact_us{
+        display: none;
+    }
+
+    header {
+        gap: 8%;
+        flex-direction: row-reverse;
+    }
+
+    .hera_logo img {
+        padding-left: 20px;
+        padding-bottom: 2px;
+        height: 17px;
+    }
+
+    .hera_logo {
+        line-height: 5px;
+        position: absolute;
+        left: 0px;
+    }
+
+    .hera_logo p {
+        font-size: 9px;
+        padding-left: 22px;
+        padding-top: 4px;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .menu-icon img {
+        height: 17px;
+        margin: 0px 3px;
+    }
+}
+
+@media screen and (max-width: 771px){
+    header {
+        gap: 7%;
+        padding: 15px 0px 13px 16px;
+        flex-direction: row-reverse;
+    }
+
+    .navbar,     .nav_button{
+        display: none;
+    }
+
+    .footer-list li {
+        margin: 0px;
+    }
+
+    .footer_items {
+        line-height: 1.5;
+    }
+
+    .menu-icon{
+        display: block;
+        scale: 1.1;
+    }
+
+    .hera_logo p {
+        font-size: 10px;
+        padding-top: 4px;
+    }
+
+    .hera_logo img {
+        height: 18px;
+        padding-bottom: 3px;
+    }
+}
+
+@media screen and (min-width: 851px) and (max-width: 1090px){
+    header {
+        gap: 1%;
+        padding: 8px 0px 4px 7px;
+    }
+
+    .navbar {
+        gap: 34px;
+    }
+
+    .hera_logo img {
+        height: 26px;
+    }
+
+    .hera_logo p {
+        font-size: 11px;
+    }
+
+    nav {
+        padding-left: 11vw;
+    }
+
+    .navbar li {
+        font-size: 12px;
+    }
+
+    .login_button a,.contact_us a{
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .login_button {
+        border: 1px solid white;
+        padding: 7px 25px;
+        border-radius: 6px;
+        background-color: inherit;
+    }
+
+
+    .contact_us {
+        padding: 10px 18px;
+        border-radius: 5px;
+    }
+
+    .navbar a:hover{
+        color: #1B7C30;
+        font-size: 13px;
+    }
+}
+
+@media (max-width:780px) {
+    .call_btn {
+      padding-top: 8px;
+      padding-bottom: 5px;
+  } 
+  
+  .flex_both{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 850px){
+  
+    .login_button a, .contact_us a {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .login_button {
+        padding: 5px 19px;
+        border-radius: 6px;
+    }
+
+    .contact_us {
+        padding: 5px 9px;
+    }
+
+    .buttons_right {
+        display: flex;
+        gap: 13px;
+        position: absolute;
+        right: 14px;
+    }
+}
+
+
+
+@media only screen and (min-width: 772px) and (max-width: 900px) {
+
+    .hera_logo p {
+        font-size: 10px;
+    }
+
+    .hera_logo img {
+        height: 14px;
+    }
+
+    .navbar li {
+        font-size: 12px;
+    }
+
+    .login_button a, .contact_us a {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .login_button {
+
+        padding: 8px 22px;
+        border-radius: 6px;
+    }
+
+    header {
+        gap: 10px;
+        padding: 11px 0px 11px 8px;
+    }
+
+    .navbar {
+        gap: 19px;
+    }
+
+    .contact_us {
+        padding: 7px 14px;
+    }
+
+    nav {
+        display: flex;
+        padding-left: 6vw;
+    }
+}
+/*  HEADER HEADER HEADER HEADER  HEADER HEADER */
+
+
+
+
+
+
+
+
+        
+        
+
+
+
+
+
+
